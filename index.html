@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Snigdhadeb Chatterjee">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Technomart : Online shopping for electronics, books and more</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Header containing navigation bar  --> 
+        <div id="navigation" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="images/LOGO.png" width="30px" height="30px">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Today's Best Deal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Orders</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                           <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" id="dropDownMenu">
+                               Departments
+                           </button>
+                           <div class="dropdown-menu" aria-labelledby="dropDownMenu">
+                               <a class="dropdown-item" href="#">Electronics</a>
+                               <div class="dropdown-divider"></div>
+                               <a class="dropdown-item" href="#">Books and CD</a>
+                               <div class="dropdown-divider"></div>
+                               <a class="dropdown-item" href="#">Food and Grocery</a>
+                           </div>
+                    </div>
+                </li>
+                <form class="form-inline ml-lg-5">
+                    <input class="form-control ml-lg-5" type="search" placeholder="Search">
+                    <button type="submit" class="btn btn-outline-secondary ml-lg-1">Search</button>
+                </form>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div id="container" class="container-fluid">
+            <div id="row" class="row">
+                <!-- Addition of Carousel -->
+                <div id="carouselImages" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselImages" data-slide-to="0"></li>
+                        <li data-target="#carouselImages" data-slide-to="1"></li>
+                        <li data-target="#carouselImages" data-slide-to="2"></li>
+                        <li data-target="#carouselImages" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/image1.jpg" alt="first slide" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/image2.jpg" alt="first slide" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/image3.jpg" alt="first slide" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/image4.jpg" alt="first slide" width="100%" height="100%">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselImages" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true">                      
+                        </span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselImages" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="row">
+                <!-- Addition of Hero image-->
+                <div class="hero-image"></div>
+            </div>
+            <br>
+            <div class="row">
+                  <div class="col-4">
+                    <img src="images/image5.jpg" class="img-fluid" width="100%" height="100%">
+                  </div>
+                  <div class="col-8"> 
+                    <h4>ADVANCED STORE STATISTICS</h4>
+                    <p>
+                            Benchmarking our website's performance helps you make great choices for your business.
+                    </p>    
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque a.
+                    </p>
+                  </div>  
+            </div>
+        </div>
+    </section>
+    <footer>
+        <!-- Footer --> 
+        <div>
+           <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                                <a href="#" class="nav-link fa fa-facebook"></a>
+                        </li>
+                        <li class="nav-item">
+                                <a href="#" class="nav-link fa fa-twitter"></a>
+                        </li>
+                        <li class="nav-item">
+                                <a href="#" class="nav-link fa fa-google"></a>
+                        </li>
+                        <li class="nav-item">
+                                <a href="#" class="nav-link fa fa-youtube"></a>
+                        </li>
+                        <li class="nav-item">
+                                <a href="#" class="nav-link fa fa-linkedin"></a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>
+    </footer>
+</body>
+</html>
